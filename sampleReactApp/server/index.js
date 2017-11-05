@@ -10,6 +10,6 @@ app.get('/', (req, res) => {
 });
 
 // read dynamic port value from environment variable
-const PORT = process.env.port || 5555;
+const PORT = process.env.PORT || 5555;
 
 app.listen(5555);
