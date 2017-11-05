@@ -6,7 +6,7 @@ const express = require('express');
 
 const app = express();
 app.get('/', (req, res) => {
-    res.send({hi: 'I am right here'});
+    res.send({hi: 'I am right there'});
 });
 
 // read dynamic port value from environment variable
